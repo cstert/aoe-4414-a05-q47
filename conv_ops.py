@@ -20,7 +20,6 @@
 #
 # See the LICENSE file for the license.
 # import Python modules
-import math 
 import sys # argv
 
 # parse script arguments
@@ -36,7 +35,7 @@ if len(sys.argv)==9:
 else:
  print(\
  'Usage: '\
- 'python3 arg1 arg2 ...'\
+ 'python3 python3 conv_ops.py c_in h_in w_in n_filt h_filt w_filt s p'\
  )
  exit()
 # write script below this line
